@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ThemeAppBackgroupColor"
+    tools:context="com.bjxiyang.zhinengshequ.myapplication.ui.activity.RegisteredActivity"
+    android:orientation="vertical">
+
+        <RelativeLayout
+            android:background="#4183FF"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <FrameLayout
+                android:id="@+id/callbackLayout"
+                android:layout_width="40dp"
+                android:layout_height="64dp">
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="7dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/c_icon_fanhui"
+                    android:layout_gravity="center"/>
+
+            </FrameLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="修改密码"
+                android:textColor="@color/white"
+                android:layout_centerInParent="true"
+                android:textSize="20dp"/>
+        </RelativeLayout>
+
+
+    <include layout="@layout/regiest_content_view"/>
+
+</LinearLayout>

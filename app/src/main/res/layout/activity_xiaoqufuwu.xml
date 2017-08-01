@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#dddddd">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#4183FF"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:background="#4183FF"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <RelativeLayout
+                android:id="@+id/iv_xiaoqufuwu_fanhui"
+                android:layout_width="40dp"
+                android:layout_height="64dp">
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="7dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/c_icon_fanhui"
+                    android:layout_gravity="center" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="小区服务"
+                android:textColor="@color/white"
+                android:layout_centerInParent="true"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_xiaoqufuwu_wuyejiaofei_jinru"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        android:gravity="center_vertical"
+        android:layout_marginTop="5dp">
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp" 
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/a_k_icon_wuyejaiofei"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="物业缴费"
+            android:textSize="16sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="30dp"/>
+
+        <ImageView
+           android:id="@+id/iv_xiaoqufuwu_wuyejiaofei_jinru"
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+       android:layout_marginLeft="-25dp"
+            android:background="@drawable/a_btn_jinru" />
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_xiaoqufuwu_xiaoqugonggao_jinru"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        android:gravity="center_vertical"
+        android:layout_marginTop="1dp">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/a_icon_xiaoqugonggao" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="小区公告 "
+            android:textSize="16sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="30dp" />
+
+        <ImageView
+            android:id="@+id/iv_xiaoqufuwu_xiaoqugonggao_jinru"
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="-25dp"
+            android:background="@drawable/a_btn_jinru" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

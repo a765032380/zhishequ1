@@ -1,0 +1,3 @@
+include ':app', ':imoocsdk', ':myapplication'
+
+include ':qAMasterSDK'

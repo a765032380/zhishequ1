@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="vertical"
+
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="54dp"
+    android:orientation="horizontal"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    >
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+            android:layout_weight="1"
+        >
+<ImageView
+    android:id="@+id/iv_item_dialog"
+    android:layout_width="55dp"
+    android:layout_height="50dp"
+    android:background="@drawable/a_icon_jinrong"
+    android:layout_marginTop="5dp"
+     />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_item_dialog_shangpinming"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="姬娜2粒装"
+            android:textSize="18sp"
+            />
+        <TextView
+            android:id="@+id/tv_item_dialog_shangpinguige"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="310g"
+            />
+
+    </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="0.02">
+
+        <TextView
+            android:id="@+id/tv_item_dialog_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="￥88.88"
+            android:textSize="20sp"
+            android:layout_gravity="center_vertical"
+            />
+        <ImageView
+            android:id="@+id/iv_item_dialog_jian"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:background="@drawable/a_btn_jian"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="24px"
+            android:id="@+id/tv_item_dialog_count"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:id="@+id/iv_item_dialog_jia"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:background="@drawable/a_btn_jia"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#dddddd"
+        android:layout_marginTop="5dp"/>
+</LinearLayout>

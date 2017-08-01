@@ -1,0 +1,126 @@
+<resources>
+
+    <string name="notifyTitle">提示</string>
+    <string name="notifyMsg">当前应用缺少必要权限。\n\n请点击\"设置\"-\"权限\"-打开所需权限。</string>
+    <string name="setting">设置</string>
+
+
+    <string name="app_name">智社区</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="my_setting">设置</string>
+    <string name="my_adress">我的地址</string>
+    <string name="city_selected">选择城市</string>
+    <string name="buquanxinxi">补全资料审核</string>
+    <string name="city_selected_lcoaladress">定位</string>
+    <string name="city_selected_hotcity">热门城市</string>
+
+    <string name="supplementary_information">补全资料审核</string>
+
+    <string name="add_new_people_formanager">添加住户</string>
+
+
+    <string name="supplementary_information_name">姓名</string>
+
+    <string name="supplementary_information_age">年龄</string>
+    <string name="supplementary_infomation_sex">性别</string>
+    <string name="supplementary_infomation_numberpassworld">密码</string>
+
+    <string name="supplementary_infomation_tezen">特征:</string>
+
+    <string name="supplementary_infomation_yezhu">业主</string>
+    <string name="supplementary_infomation_zuke">租客</string>
+
+
+    <string name="supplementary_sure_support">提交审核</string>
+    <string name="newruzhuren">新建住户</string>
+    <string name="tenantmanagementtitle">租客管理</string>
+
+    <string name="title_activity_introduction_gurad">IntroductionGuradActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="introduction_login_button">登录／注册</string>
+    <string name="introduction_hezuo_button">申请合作</string>
+
+
+    <string name="input_suozaidi">所在地</string>
+    <string name="input_xiaoqu">小区</string>
+    <string name="input_gongsi">公司</string>
+    <string name="input_lianxiren">联系人</string>
+    <string name="input_shouji">手机</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">手机号码</string>
+    <string name="prompt_password">密码</string>
+    <string name="smsversion">验证码</string>
+    <string name="getsmsversion">获取验证码</string>
+    <string name="action_sign_in">登录</string>
+    <string name="action_sign">注册</string>
+    <string name="action_sign_in_short">登录</string>
+    <string name="error_invalid_email">手机号码错误</string>
+    <string name="error_invalid_password">密码太短了</string>
+    <string name="error_incorrect_password">密码错误</string>
+    <string name="error_field_required">请求失败</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="button_ruzhuguanli">住户管理</string>
+    <string name="button_zhugeguanli">租客管理</string>
+    <string name="button_new_adress">+新增地址</string>
+
+
+    <string name="setting_title">设置</string>
+    <string name="setting_people_info">个人信息</string>
+    <string name="changepassworld">修改密码</string>
+    <string name="feadbackmygreen">意见反馈</string>
+    <string name="version_string">版本号</string>
+    <string name="auto_update">检查更新</string>
+
+    <string name="education">学历</string>
+    <string name="marital_status">婚姻状况</string>
+
+    <string name="feedback_text1">1.功能建议</string>
+    <string name="feedback_text2">2.体验优化</string>
+    <string name="feedback_text3">其他</string>
+
+    <string name="reg_agree">注册即同意</string>
+
+    <string name="jiao_protocol">《服务条款》</string>
+
+    <!-- 检查更新组件string-->
+    <string name="update_title">快下载更新体验一下吧</string>
+    <string name="update_new_version">您有新版本</string>
+    <string name="update_install">安装</string>
+    <string name="update_download_failed">下载失败</string>
+    <string name="update_download_failed_msg">下载失败，请检查网络连接或 SD卡存储空间</string>
+    <string name="update_download_start">开始下载</string>
+    <string name="update_download_processing">正在下载</string>
+    <string name="update_download_finish">下载完成</string>
+    <string name="update_download_tip">提示</string>
+    <string name="no_new_version_title">已是最新版</string>
+    <string name="no_new_version_msg">您当前已经是最新版本，无需更新。</string>
+    <string name="cancel">取消</string>
+
+<!--首页四个按键-->
+    <string name="home_image_view_text">首页</string>
+    <string name="pond_image_view_text">金融</string>
+    <string name="message_image_view_text">商超</string>
+    <string name="mine_image_view_text">我的</string>
+
+
+
+    <string name="jieshao">是你发的文峰卡尔杆儿
+    发你的娃饿哦if呢入网费模范为欧冠分人大肥猫热电脑版鸥鸟贝尔
+    非农阿瑟贵妃爱不够阿尔能够拉尔弄
+    逢考老妇女绕过内容昂
+    耐热钢柔嫩功能卡贷款萨拉打开了发呢哦啊内防而欧冠点卡服了你认可我爱妃
+    电脑饭呢欧尼您能反反复复付付付付付付付付付付付付付付付付付付付付付
+    反反复复付付付付付付付付付付付付付付付付付付
+    反反复复付付付付付付付付付付付付付付付付付
+    反反复复付付付付付付付付付付付付付付付付付付付付付
+    反反复复付付付付付付付付付付付付付付付付付付付付付付付付付</string>
+
+</resources>

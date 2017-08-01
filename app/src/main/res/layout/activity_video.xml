@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#333333">
+    <LinearLayout
+        android:id="@+id/ll_video_address"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp" 
+            android:background="@drawable/a_icon_four"/>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:text="国风美唐一期二单元"
+            android:textColor="#ffffff"/>
+    </LinearLayout>
+    <SurfaceView
+        android:id="@+id/sfv_video"
+        android:layout_marginTop="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="230dp" 
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/video_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="00.00"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:layout_marginTop="60dp"
+        android:textSize="20sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:id="@+id/ll_video_guaduan"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp" 
+                android:background="@drawable/a_icon_one"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:textColor="#ffffff"
+                android:text="挂断"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_video_jingyin"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:background="@drawable/a_icon_two" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="静音"
+                android:layout_marginTop="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+           
+            android:id="@+id/ll_video_jieting"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:background="@drawable/b_icon_three" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="接听"
+                android:layout_marginTop="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/ll_video_kaimen"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:background="@drawable/a_icon_three" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="开门"
+                android:layout_marginTop="10dp" />
+        </LinearLayout>
+        
+    </LinearLayout>
+
+</LinearLayout>

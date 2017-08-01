@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#00000000"
+    >
+<ImageView
+    android:visibility="gone"
+    android:id="@+id/kaimenyouxi_shengzi"
+    android:layout_width="10dp"
+    android:layout_height="105dp" 
+    android:background="@drawable/a_img_shengzi"
+    android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_height="380dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-65dp"
+        android:background="@drawable/a_img_hongbao"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="80dp"
+            android:text="1.8L食用油一桶"
+            android:textColor="#ff0000"
+            android:textSize="18sp"
+            android:id="@+id/kaimenyouxi_name"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="有效期至"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/kaimenyouxi_youxiaoqi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2017.6.30"
+                android:textSize="14sp" />
+            
+        </LinearLayout>
+
+     
+
+        <ImageView
+            android:layout_width="230dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/a_img_kaimenyouxi" />
+
+        <ImageView
+            android:id="@+id/kaimenyouxi_zhenknow"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/a_btn_zhenzhidaole" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:text="已放到您的抵用券里,请注意查收"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="250dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="#ffff00"></View>
+
+        <LinearLayout
+            android:id="@+id/kaimenyouxi_guize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="活动规则"
+                android:textColor="#ffffff"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="8dp"
+                android:layout_height="13dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/a_btn_jinru" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/xixian_kaimenyouxi"
+        android:layout_width="1dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="-10dp"
+
+        android:background="@drawable/a_btn_xian" />
+
+    <ImageView
+        android:visibility="gone"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/a_btn_guanbi"
+       android:id="@+id/kaimenyouxi_close"
+        android:layout_gravity="center_horizontal"
+ 
+       />
+</LinearLayout>

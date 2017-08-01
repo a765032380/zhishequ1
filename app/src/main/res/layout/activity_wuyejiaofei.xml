@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#dddddd">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#4183FF"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:background="#4183FF"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <RelativeLayout
+                android:id="@+id/iv_wuyejiaofei_fanhui"
+                android:layout_width="40dp"
+                android:layout_height="64dp">
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="7dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/c_icon_fanhui"
+                    android:layout_gravity="center" />
+               
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="物业缴费"
+                android:textColor="@color/white"
+                android:layout_centerInParent="true"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        >
+        <com.bjxiyang.zhinengshequ.myapplication.ui.myview.MyListView
+            android:id="@+id/lv_wuyejiaofei"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </com.bjxiyang.zhinengshequ.myapplication.ui.myview.MyListView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefreshLayout1"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+        android:id="@+id/ll_activity_wuxiangmu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/e_icon_wujiaofei" />
+
+        <TextView
+            android:id="@+id/tv_wujilu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="当前无缴费项目"
+            android:layout_marginTop="20dp"
+            android:textSize="16sp" />
+    </LinearLayout>
+    </android.support.v4.widget.SwipeRefreshLayout>
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefreshLayout2"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/ll_activity_wuwangluo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="95dp"
+                android:layout_height="75dp"
+                android:layout_marginTop="80dp"
+                android:background="@drawable/d_icon_wanluoyichang" />
+
+            <TextView
+                android:id="@+id/tv_wuwangluo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="网络异常，请检查网络"
+                android:layout_marginTop="20dp"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </android.support.v4.widget.SwipeRefreshLayout>
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/ll_activity_banbentishi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/e_icon_wujiaofei" />
+
+        <TextView
+            android:id="@+id/tv_banbentishi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="当前版本不支持物业缴费"
+            android:layout_marginTop="20dp"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

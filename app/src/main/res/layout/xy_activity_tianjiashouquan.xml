@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#4183FF"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:id="@+id/ib_menjinjilu_fanghui"
+            android:layout_width="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.9"
+            android:layout_height="42dp">
+            <ImageView
+                android:layout_width="15dp"
+                android:paddingTop="7dp"
+                android:layout_height="25dp"
+                android:background="@drawable/c_icon_fanhui"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:gravity="center"
+            android:text="添加授权"
+            android:layout_marginRight="42dp"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#dddddd"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:background="#dddddd"
+            android:gravity="center_vertical"
+            android:text="入住信息（必填）" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/select_xiaoqu"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="小区" />
+
+        <TextView
+            android:id="@+id/select_xiaoqu_tianjiashouquan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="5"
+            android:text="选择小区" />
+
+        <ImageButton
+            android:id="@+id/ib_tianjianshouquan"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="0.3"
+            android:background="@drawable/f_btn_jinru" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#dddddd"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:background="#dddddd"
+            android:gravity="center_vertical"
+            android:text="人员角色（必填）" />
+
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#dddddd"></FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/add_select_yezhu"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1.98"
+            android:text="家属" />
+
+        <ImageButton
+
+            android:id="@+id/ib_yezhujiashu"
+            android:layout_width="0dp"
+            android:layout_height="22dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="0.16"
+            android:background="@drawable/k_btn_zhong_pre" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#dddddd"></FrameLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/add_select_zuke"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1.98"
+            android:text="租客" />
+
+        <ImageButton
+
+            android:id="@+id/ib_zuke"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="0.14"
+            android:background="@drawable/k_btn_zhong_n" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#dddddd"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:background="#dddddd"
+            android:gravity="center_vertical"
+            android:text="个人信息（必填）" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="姓名" />
+
+        <EditText
+
+            android:id="@+id/et_name"
+            android:layout_width="200dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="50dp"
+            android:background="#dddddd"
+            android:textSize="14sp"
+            android:hint="请输入姓名"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#dddddd"></FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+
+            android:text="联系电话" />
+
+        <EditText
+
+            android:id="@+id/et_lianxidianhua"
+            android:layout_width="200dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="22dp"
+            android:background="#dddddd"
+            android:textSize="14sp"
+            android:hint="请输入电话"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#dddddd"
+        android:gravity="center_horizontal">
+
+        <ImageButton
+            android:id="@+id/ib_quedingtianjia"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/b_btn_quedingtianjia" />
+    </LinearLayout>
+
+
+</LinearLayout>

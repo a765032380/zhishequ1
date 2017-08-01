@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/color_bg_header" android:state_enabled="false"/>
+    <item android:color="#ffed413d" android:state_enabled="true"/>
+    <item android:state_pressed="false" android:color="#ffed413d" />
+    <item android:state_pressed="true" android:color="#ff8e8e93" />
+    <item android:color="#ffed413d" />
+</selector>

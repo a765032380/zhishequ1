@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+   >
+
+    <TextView
+        android:id="@+id/tv_xinyong_danbaodai"
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="担保贷"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="5dp"/>
+
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+        
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="贷款期限："
+                    android:textSize="12sp"/>
+                <TextView
+                    android:id="@+id/tv_xinyong_daikuanqixian"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="最长36个月"
+                    android:textColor="#db4593"
+                    android:textSize="12sp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="下款期限："
+                    android:textSize="12sp"/>
+                <TextView
+                    android:id="@+id/tv_xinyong_xiakuanqixian"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12小时"
+                    android:textSize="12sp"
+                    android:textColor="#db4593"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp"
+            >
+
+            <LinearLayout
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="抵押物："
+                    android:textSize="12sp"/>
+                <TextView
+                    android:id="@+id/tv_xinyong_diyawu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="无需抵押"
+                    android:textColor="#db4593"
+                    android:textSize="12sp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="参考月利率："
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_xinyon_yuecankaolilv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0.55%"
+                    android:textColor="#db4593"
+                    android:textSize="12sp"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+
+            >
+
+
+            <TextView
+                android:id="@+id/tv_xinyong_daikuanedu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="300-555万"
+                android:textSize="18sp"
+                android:textColor="#db4593"
+                android:layout_gravity="right"
+                android:layout_marginRight="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="贷款额度"
+                android:textSize="12sp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="right"               
+               android:layout_marginRight="15dp"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f1f1f1"
+        android:layout_marginTop="10dp">
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_xinyong_dibuxinxi"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:textSize="12sp"
+        android:text="以中小微企业为主服务对象的信用贷款产品，申请人家庭及经营情况"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#f1f1f1">
+
+    </LinearLayout>
+
+</LinearLayout>

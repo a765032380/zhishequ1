@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\MyApplication\\b88myviewpage\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\guide_1.jpg",
+        "source": "C:\\Users\\Administrator\\Desktop\\MyApplication\\b88myviewpage\\src\\main\\res\\drawable-hdpi\\guide_1.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\MyApplication\\b88myviewpage\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\guide_3.jpg",
+        "source": "C:\\Users\\Administrator\\Desktop\\MyApplication\\b88myviewpage\\src\\main\\res\\drawable-hdpi\\guide_3.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\MyApplication\\b88myviewpage\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\guide_2.jpg",
+        "source": "C:\\Users\\Administrator\\Desktop\\MyApplication\\b88myviewpage\\src\\main\\res\\drawable-hdpi\\guide_2.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\MyApplication\\b88myviewpage\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\welcome_android.jpg",
+        "source": "C:\\Users\\Administrator\\Desktop\\MyApplication\\b88myviewpage\\src\\main\\res\\drawable-hdpi\\welcome_android.jpg"
+    }
+]

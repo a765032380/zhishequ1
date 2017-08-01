@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#4183FF">
+        <RelativeLayout
+            android:id="@+id/ib_fanghui"
+            android:layout_width="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.9"
+            android:layout_height="42dp">
+            <ImageView
+                android:layout_width="15dp"
+                android:paddingTop="7dp"
+                android:layout_height="25dp"
+                android:background="@drawable/c_icon_fanhui"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="钥匙授权"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:layout_weight="7"
+            android:gravity="center"/>
+
+        <RelativeLayout
+            android:id="@+id/ib_tianjia"
+            android:layout_width="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.9"
+            android:layout_height="42dp">
+            <ImageView
+                android:layout_width="25dp"
+                android:paddingTop="7dp"
+                android:layout_height="25dp"
+                android:background="@drawable/c_icon_tianjia"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:visibility="gone"
+        android:id="@+id/swipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.bjxiyang.zhinengshequ.myapplication.ui.myview.MyListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/lv_keyaccredit">
+        </com.bjxiyang.zhinengshequ.myapplication.ui.myview.MyListView>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:visibility="gone"
+        android:id="@+id/swipeRefreshLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/ll_activity_wushouquan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginTop="80dp"
+                android:background="@drawable/b_icon_wushouquan" />
+
+            <TextView
+                android:id="@+id/tv_wushouquan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="当前无授权"
+                android:layout_marginTop="20dp"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </android.support.v4.widget.SwipeRefreshLayout>
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:visibility="gone"
+        android:id="@+id/swipeRefreshLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/ll_activity_wuwangluo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="95dp"
+                android:layout_height="75dp"
+                android:layout_marginTop="80dp"
+                android:background="@drawable/d_icon_wanluoyichang" />
+
+            <TextView
+                android:id="@+id/tv_wuwangluo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="网络异常，请检查网络"
+                android:layout_marginTop="20dp"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+
+</LinearLayout>

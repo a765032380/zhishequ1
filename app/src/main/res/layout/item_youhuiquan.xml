@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="vertical"
+    android:background="@drawable/a_youhuiquan_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+        <TextView
+            android:id="@+id/tv_yopuhuiquan_hongbaoleixing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:text="通用红包"
+            android:textSize="20sp"
+            android:textColor="#da4692"
+            android:layout_marginLeft="25dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="￥"
+            android:textSize="20sp"
+            android:textColor="#da4692" 
+            android:layout_weight="0.01"/>
+
+        <TextView
+            android:id="@+id/tv_youhuiquan_hongbaojine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12"
+            android:textSize="25sp"
+            android:textColor="#da4692" 
+            android:layout_weight="0.1"
+            android:layout_marginRight="15dp"/>
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+      
+        android:layout_marginTop="5dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_yopuhuiquan_youxiaoqixian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="有效期至2017.05.23"
+            android:textSize="18sp"
+            
+            android:layout_marginLeft="25dp"
+            android:layout_weight="1" />
+
+
+        <TextView
+            android:id="@+id/tv_youhuiquan_mankeyong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="满100可用"
+            android:textSize="16sp"
+         
+            android:layout_weight="0.1"
+            android:layout_marginRight="15dp" />
+ 
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/g_img_xian"
+        android:layout_marginTop="10dp"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/tv_yopuhuiquan_xianzhileixing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="限20:00-23:00、夜宵频道使用。"
+            android:textSize="12sp"
+
+            android:layout_marginLeft="25dp"
+            android:layout_weight="1" />
+
+
+        <TextView
+            android:id="@+id/tv_youhuiquan_xianzhishoujihao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="仅限13333333333"
+            android:textSize="12sp"
+
+            android:layout_weight="0.1"
+            android:layout_marginRight="15dp" />
+
+
+    </LinearLayout>
+</LinearLayout>

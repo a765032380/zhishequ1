@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_dialog_gouwuche"
+            android:text="购物车"
+            android:textSize="14sp"
+            android:layout_weight="10"/>
+        <RelativeLayout
+            android:id="@+id/ly_dialog_qingkong"
+            android:layout_width="68dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_weight="0.49">
+            <ImageView
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:background="@drawable/b_icon_qingchu"
+                android:textSize="14sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="清空全部"
+                android:textSize="14sp"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#dddddd"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp">
+        <ListView
+            android:id="@+id/lv_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="40dp"/>
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="-40dp">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="#000000">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="共计  ￥"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:layout_marginLeft="15dp"/>
+            <TextView
+                android:id="@+id/tv_dialog_money"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="99.99"
+                android:textSize="18sp"
+                android:textColor="#ffffff"/>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tv_dialog_xuanhaole"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="选好了"
+            android:textSize="18sp"
+            android:background="#ff7700"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

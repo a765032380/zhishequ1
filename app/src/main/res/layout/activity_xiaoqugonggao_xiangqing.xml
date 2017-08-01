@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#4183FF"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:background="#4183FF"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <RelativeLayout
+                android:id="@+id/rl_xiaoqugonggao_xiangqing_fanhui"
+                android:layout_width="40dp"
+                android:layout_height="64dp">
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="7dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/c_icon_fanhui"
+                    android:layout_gravity="center" />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="小区公告"
+                android:textColor="@color/white"
+                android:layout_centerInParent="true"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <TextView
+            android:id="@+id/tv_xiaoqugonggao_xiangqing_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="智社区APP重要升级通知"
+            android:textColor="#000000"
+            android:textSize="16sp"
+           />
+
+        <ImageView
+            android:id="@+id/iv_xiaoqugonggao_xiangqing_jinji"
+            android:layout_width="40dp"
+            android:layout_height="17dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/a_m_icon_jinji" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <TextView
+            android:id="@+id/tv_xiaoqugonggao_xiangqing_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2017.01.01"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_xiaoqugonggao_xiangqing_wuyeguanlichu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="物业管理处"
+            android:textColor="#909090"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_item_gone_text"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:orientation="vertical"
+        android:layout_marginRight="15dp">
+
+        <TextView
+            android:id="@+id/tv_xiaoqugonggao_xiangqing_gonggaoxiangqing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="尊敬的业主：
+         尊敬的业主：尊敬的业主：尊敬的业主：尊敬的业主：尊敬的业主：尊敬的业主：尊敬的业主：尊敬的业主：尊敬的业主：尊敬的业主：尊敬的业主：尊敬的业主：尊敬的业主：尊敬的业主：尊敬的业主：尊敬的业"
+            android:textColor="#888888" />
+    </LinearLayout>
+
+</LinearLayout>

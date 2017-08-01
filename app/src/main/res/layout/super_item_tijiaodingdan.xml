@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="vertical"
+
+    >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            >
+            <ImageView
+                android:id="@+id/iv_item_tijiaodingdan"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/e_btn_xuankuang"
+               android:layout_gravity="center_vertical"
+                />
+            <ImageView
+                android:id="@+id/iv_item_tijiaodingdan_shangpinimage"
+                android:layout_width="90dp"
+                android:layout_height="75dp"
+                android:background="@drawable/a_icon_jinrong"
+                android:layout_marginLeft="15dp"
+                android:layout_gravity="center_vertical"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/tv_item_tijiaodingdan_shangpinname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="屈臣氏苏打水"
+                    android:textSize="18sp"
+                    />
+                <TextView
+                    android:id="@+id/tv_item_tijiaodingdan_shangpinguige"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="310ml/瓶"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_item_tijiaodingdan_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="￥88.88"
+                    android:textColor="#da4692"
+                    android:textSize="18sp"
+                    android:layout_gravity="center_vertical"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="0.02">
+
+            <ImageView
+                android:id="@+id/iv_item_tijiaodingdan_jian"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:background="@drawable/a_btn_jian"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"/>
+            <TextView
+                android:id="@+id/tv_item_tijiaodingdan_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textSize="24px"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"/>
+            <ImageView
+                android:id="@+id/iv_item_tijiaodingdan_jia"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:background="@drawable/a_btn_jia"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#dddddd"
+        android:layout_marginTop="4dp"/>
+</LinearLayout>

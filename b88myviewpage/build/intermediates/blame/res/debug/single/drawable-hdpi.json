@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\MyApplication\\b88myviewpage\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\login_point_selected.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\MyApplication\\b88myviewpage\\src\\main\\res\\drawable-hdpi\\login_point_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\MyApplication\\b88myviewpage\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\login_point.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\MyApplication\\b88myviewpage\\src\\main\\res\\drawable-hdpi\\login_point.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\MyApplication\\b88myviewpage\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\MyApplication\\b88myviewpage\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    }
+]

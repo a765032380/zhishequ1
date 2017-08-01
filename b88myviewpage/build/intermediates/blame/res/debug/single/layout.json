@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\MyApplication\\b88myviewpage\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\MyApplication\\b88myviewpage\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\MyApplication\\b88myviewpage\\build\\intermediates\\res\\merged\\debug\\layout\\guide03.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\MyApplication\\b88myviewpage\\src\\main\\res\\layout\\guide03.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\MyApplication\\b88myviewpage\\build\\intermediates\\res\\merged\\debug\\layout\\guide.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\MyApplication\\b88myviewpage\\src\\main\\res\\layout\\guide.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\MyApplication\\b88myviewpage\\build\\intermediates\\res\\merged\\debug\\layout\\guide01.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\MyApplication\\b88myviewpage\\src\\main\\res\\layout\\guide01.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\MyApplication\\b88myviewpage\\build\\intermediates\\res\\merged\\debug\\layout\\guide02.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\MyApplication\\b88myviewpage\\src\\main\\res\\layout\\guide02.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\MyApplication\\b88myviewpage\\build\\intermediates\\res\\merged\\debug\\layout\\welcome.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\MyApplication\\b88myviewpage\\src\\main\\res\\layout\\welcome.xml"
+    }
+]

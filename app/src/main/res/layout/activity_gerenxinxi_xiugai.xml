@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#dddddd">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#4183FF"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:background="#4183FF"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <RelativeLayout
+                android:id="@+id/iv_gerenxinxi_xiugai_fanhui"
+                android:layout_width="40dp"
+                android:layout_height="64dp">
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="7dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/c_icon_fanhui"
+                    android:layout_gravity="center" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="个人信息"
+                android:textColor="@color/white"
+                android:layout_centerInParent="true"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="5dp"
+  
+    android:background="#ffffff">
+    <com.bjxiyang.zhinengshequ.myapplication.view.CircleImageView
+        android:id="@+id/iv_gerenxinxi_xiugai_touxiang"
+        android:layout_width="80dp"
+        android:layout_height="80dp" 
+        android:src="@drawable/c_img_touxiang"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="75dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:text="用户姓名:"
+                android:textSize="16sp"
+                android:textColor="#909090"/>
+
+            <TextView
+                android:id="@+id/tv_gerenxinxi_xiugai_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="姓名"
+                android:textSize="16sp"
+                android:textColor="#323232" 
+                android:layout_marginLeft="10dp"/>
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="用户性别:"
+                android:textSize="16sp"
+                android:textColor="#909090" />
+
+            <TextView
+                android:id="@+id/tv_gerenxinxi_xiugai_sex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="男"
+                android:textSize="16sp"
+                android:textColor="#323232"
+                android:layout_marginLeft="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="出生日期:"
+                android:textSize="16sp"
+                android:textColor="#909090" />
+
+            <TextView
+                android:id="@+id/tv_gerenxinxi_xiugai_chushengriqi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2001.06.16"
+                android:textSize="16sp"
+                android:textColor="#323232"
+                android:layout_marginLeft="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="手机号码:"
+                android:textSize="16sp"
+                android:textColor="#909090" />
+
+            <TextView
+                android:id="@+id/tv_gerenxinxi_xiugai_tel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="13333333333"
+                android:textSize="16sp"
+                android:textColor="#323232"
+                android:layout_marginLeft="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="用户邮箱:"
+                android:textSize="16sp"
+                android:textColor="#909090" />
+
+            <TextView
+                android:id="@+id/tv_gerenxinxi_xiugai_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="13333333333@qq.com"
+                android:textSize="16sp"
+                android:textColor="#323232"
+                android:layout_marginLeft="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="用户 QQ  :"
+                android:textSize="16sp"
+                android:textColor="#909090" />
+
+            <TextView
+                android:id="@+id/tv_gerenxinxi_xiugai_qq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="13333333333"
+                android:textColor="#323232"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="用户微信:"
+                android:textSize="16sp"
+                android:textColor="#909090" />
+
+            <TextView
+                android:id="@+id/tv_gerenxinxi_xiugai_weixin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="13333333333"
+                android:textColor="#323232"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我的地址:"
+                android:textSize="16sp"
+                android:textColor="#909090" />
+
+            <TextView
+                android:id="@+id/tv_gerenxinxi_xiugai_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="春天华府 12楼 1202室"
+                android:textSize="16sp"
+                android:textColor="#323232"
+                android:layout_marginLeft="10dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_gerenxinxi_xiugai_bt_xiugai"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:background="@drawable/h_a_btn_xuigai_pre" 
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"/>
+    
+</LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="15dp"
+        android:gravity="center_vertical"
+        android:layout_marginRight="15dp">
+
+        <ImageView
+           
+            android:id="@+id/iv_item_shouhuodizhi_button"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/b_btn_xuanze_pre"
+            android:layout_marginRight="10dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="10">
+
+            <TextView
+                android:id="@+id/tv_item_shouhuodizhi_dizhi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="鹏景阁大厦606" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/tv_item_shouhuodizhi_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="贡磊磊" />
+
+                <TextView
+                    android:id="@+id/tv_item_shouhuodizhi_sex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="先生"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:id="@+id/tv_item_shouhuodizhi_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="13333333333" 
+                    android:layout_marginLeft="10dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/tv_item_shouhuodizhi_peisongfanwei"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="不在配送范围"
+            android:layout_marginLeft="10dp" 
+            android:layout_marginRight="20dp"/>
+        <LinearLayout
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center_vertical">
+            <RelativeLayout
+                android:id="@+id/rl_item_shanchu_button"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_width="40dp"
+                >
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/b_a_icon_shanchu"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/rl_item_bianji_button"
+                android:gravity="center"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_width="40dp">
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/a_e_a_a_btn_modification"
+                    />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+      
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#dddddd" />
+
+</LinearLayout>

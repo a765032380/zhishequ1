@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="225dp"
+    android:orientation="horizontal">
+    <ImageView
+        android:id="@+id/iv_gerenxinxi_touxiang"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/c_img_touxiang"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="15dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:id="@+id/tv_gerenxinxi_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:text="姓名"
+                android:textSize="16sp"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/tv_gerenxinxi_yiqiyong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="已启用" 
+                android:textSize="16sp"
+                android:textColor="#ee8e4e"/>
+        </LinearLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#dddddd"
+            android:layout_marginTop="5dp"></View>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            >
+            <TextView
+                
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:text="住户性质："
+                android:textColor="#aaaaaa"
+                android:textSize="16sp"
+                />
+
+            <TextView
+                android:id="@+id/tv_gerenxinxi_zhuhuxingzhi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="租客"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+         android:layout_marginTop="5dp">
+
+            <TextView
+                
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="启用时间："
+                android:textColor="#aaaaaa"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_gerenxinxi_qiyongshijian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2017年6月1日"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="小区地址："
+                android:textColor="#aaaaaa"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_gerenxinxi_xiaoqudizhi"
+                
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="春天华府 12楼 1202室"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+
+            <TextView
+               
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="手机号码："
+                android:textColor="#aaaaaa"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_gerenxinxi_shoujihaoma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="13333333333"
+                android:textSize="16sp" />
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/iv_gerenxinxi_xiugaixinxi"
+            android:layout_width="180dp"
+            android:layout_height="23dp"
+            android:background="@drawable/h_btn_xuigai_pre"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"/>
+        
+        
+        
+    </LinearLayout>
+
+
+</LinearLayout>
+    <View
+android:layout_width="match_parent"
+android:layout_height="5dp"
+android:background="#dddddd"
+        android:layout_marginTop="5dp"></View>
+</LinearLayout>
+

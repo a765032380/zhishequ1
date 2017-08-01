@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sander.guardmanagement.ui.activity.FeedbackActivity"
+    android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@color/AppTopNavbarColor"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="64dp">
+            <FrameLayout
+                android:id="@+id/callbackLayout"
+                android:layout_width="40dp"
+                android:layout_height="64dp">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"/>
+
+            </FrameLayout>
+            <TextView
+                android:id="@+id/toolbarTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/feadbackmygreen"
+                android:layout_centerInParent="true"
+                android:textSize="20dp"/>
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:id="@+id/selected_button_action"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/feedback_button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/feedback_text1"
+            android:background="@drawable/grayshape"
+            android:layout_marginTop="5dp"
+            />
+        <Button
+            android:id="@+id/feedback_button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/feedback_text2"
+            android:background="@drawable/grayshape"
+            android:layout_marginTop="10dp"
+
+            />
+        <Button
+            android:id="@+id/feedback_button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/feedback_text3"
+            android:background="@drawable/grayshape"
+            android:layout_marginTop="10dp"
+            />
+
+    </LinearLayout>
+    <EditText
+        android:id="@+id/inputcontentview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/common_search_bg"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="10dp"
+        android:gravity="top"
+        android:hint="输入意见内容"/>
+
+    <Button
+        android:id="@+id/sureqpplycooperation"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="确认"
+        android:background="@drawable/shape"
+        android:textColor="@color/colorThemeButtonText"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
