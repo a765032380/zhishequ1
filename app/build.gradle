@@ -5,6 +5,7 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
     defaultConfig {
+        multiDexEnabled true
         applicationId "com.bjxiyang.zhinengshequ"
         minSdkVersion 19
         targetSdkVersion 26
@@ -118,5 +119,6 @@ dependencies {
     compile(name:'yunzt_Full_1.0', ext:'aar')
     //分包的依赖
     compile 'com.android.support:multidex:1.0.1'
+    compile 'org.robolectric:shadows-multidex:3.3.1'
 
 }

@@ -337,7 +337,11 @@
             android:configChanges="orientation|keyboardHidden|navigation"
             android:exported="false"
             android:screenOrientation="behind"></activity>
-
+<receiver android:name=".myapplication.ui.video.VideoBroadcastReceiver">
+    <intent-filter>
+    <action android:name="org.ebiao.kaoqin.YTXHelper.UsernameSN"></action>
+    </intent-filter>
+</receiver>
 
         <!-- 设置AppKey -->
         <meta-data

@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MotionEvent;
 
+import com.bjxiyang.zhinengshequ.myapplication.ui.video.VideoBroadcastReceiver;
 import com.testin.agent.Bugout;
 import com.testin.agent.BugoutConfig;
 
@@ -22,12 +23,11 @@ public class BeasActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
-        VideoBroadcastReceiver receiver = new VideoBroadcastReceiver();
-        IntentFilter intentFilter = new IntentFilter();
-        intentFilter.addAction("org.ebiao.kaoqin.YTXHelper.UsernameSN");
-        this.registerReceiver(receiver, intentFilter);
-        YZTEsdk.getXulie(BeasActivity.this);
-        YZTEsdk.initServer(BeasActivity.this);
+//        VideoBroadcastReceiver receiver = new VideoBroadcastReceiver();
+//        IntentFilter intentFilter = new IntentFilter();
+//        intentFilter.addAction("org.ebiao.kaoqin.YTXHelper.UsernameSN");
+//        this.registerReceiver(receiver, intentFilter);
+
 
         Bugout.init(this, "279c8c7a996a03f452e6804a1f23a5e5", "your channel ID");
         BugoutConfig config = new BugoutConfig.Builder(BeasActivity.this)

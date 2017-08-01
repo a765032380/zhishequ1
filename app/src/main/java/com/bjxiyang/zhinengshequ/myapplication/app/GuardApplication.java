@@ -2,13 +2,16 @@ package com.bjxiyang.zhinengshequ.myapplication.app;
 
 import android.app.Activity;
 import android.app.Application;
+import android.content.Context;
 import android.content.SharedPreferences;
+import android.support.multidex.MultiDex;
 import android.support.multidex.MultiDexApplication;
 import android.util.Log;
 
 import com.bjxiyang.zhinengshequ.myapplication.bianlidian.DaoMaster;
 import com.bjxiyang.zhinengshequ.myapplication.bianlidian.DaoSession;
 import com.bjxiyang.zhinengshequ.myapplication.greendao.DaoUtils;
+import com.bjxiyang.zhinengshequ.myapplication.ui.activity.BeasActivity;
 import com.facebook.drawee.backends.pipeline.Fresco;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;
@@ -26,7 +29,7 @@ import cn.yunzt.top.yztsdk.YZTEsdk;
  * Created by sander on 2017/4/7.
  */
 
-public class GuardApplication extends MultiDexApplication {
+public class GuardApplication extends Application {
 
     /**
      * 是否加密数据库.
@@ -48,10 +51,17 @@ public class GuardApplication extends MultiDexApplication {
     public static GuardApplication getContent(){
         return instance;
     }
+    @Override
+    protected void attachBaseContext(Context base) {
+        super.attachBaseContext(base);
+        MultiDex.install(this);
+    }
 
     @Override
     public void onCreate() {
         super.onCreate();
+        YZTEsdk.getXulie(this);
+        YZTEsdk.initServer(this);
         YZTEsdk.initYZT(this);
 
         DaoUtils.init(this);
