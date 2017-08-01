@@ -39,9 +39,11 @@ public class RegisteredActivity extends MySwipeBackActivity implements View.OnCl
 
 
     boolean isChangePassworld;
+    boolean isXiuGai=false;
 
     private Timer mtimer;
     LinearLayout regiestView;
+    private LinearLayout ln_fuwutiaokuan;
 
     private Button bt_get_smscode;
     private EditText et_zhuce_password_again;
@@ -75,6 +77,7 @@ public class RegisteredActivity extends MySwipeBackActivity implements View.OnCl
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registered);
         Intent intent = getIntent();
+        isXiuGai=intent.getBooleanExtra("isXiuGai",false);
         isChangePassworld = intent.getBooleanExtra("ischange",true);
 
         initCallBack();
@@ -96,6 +99,7 @@ public class RegisteredActivity extends MySwipeBackActivity implements View.OnCl
 
     }
     public void initView(){
+        ln_fuwutiaokuan= (LinearLayout) findViewById(R.id.ln_fuwutiaokuan);
         zhuce_logo= (ImageView) findViewById(R.id.zhuce_logo);
         //手机号输入框
         input_user_name_regiest_editview = (EditText)findViewById(R.id.inputusernameedittext);
@@ -121,6 +125,13 @@ public class RegisteredActivity extends MySwipeBackActivity implements View.OnCl
         regiestView = (LinearLayout)findViewById(R.id.registerView);
         //显示布局
         regiestView.setVisibility(View.VISIBLE);
+
+        if (isXiuGai){
+            ln_fuwutiaokuan.setVisibility(View.GONE);
+        }else {
+            ln_fuwutiaokuan.setVisibility(View.VISIBLE);
+        }
+
     }
 
     public void setTimerTask(){

@@ -59,6 +59,7 @@ public class MyFragment extends Fragment implements View.OnClickListener,MainAct
     private LinearLayout jianchagengxin;
     private LinearLayout yijianfankui;
     private LinearLayout lianxikefu;
+    private LinearLayout jiamenghezuo;
     //商超的内容
     private LinearLayout daifukuan;
     private LinearLayout daifahuo;
@@ -116,7 +117,8 @@ public class MyFragment extends Fragment implements View.OnClickListener,MainAct
     }
 
     public void initView(){
-
+        jiamenghezuo= (LinearLayout) view.findViewById(R.id.jiamenghezuo);
+        jiamenghezuo.setOnClickListener(this);
         daishouhuo= (LinearLayout) view.findViewById(R.id.daishouhuo);
         tuikuantuihuo= (LinearLayout) view.findViewById(R.id.tuikuantuihuo);
         wodedizhi= (LinearLayout) view.findViewById(R.id.wodedizhi);
@@ -239,13 +241,24 @@ public class MyFragment extends Fragment implements View.OnClickListener,MainAct
     public void onClick(View v) {
         Intent intent;
         switch (v.getId()){
+            //跳转到加盟合作
+            case R.id.jiamenghezuo:
+                Intent j = new Intent();
+                j.setAction(Intent.ACTION_DIAL);
+                j.setData(Uri.parse("tel:4000080828"));
+                startActivity(j);
+                break;
             //跳转到个人信息页面
             case R.id.gerenxinxi:
                 startIntent(MyXinXiActivity.class);
                 break;
             //跳转到修改密码页面
             case R.id.changepassworldlativelayout:
-                startIntent(RegisteredActivity.class);
+                Intent intent2=new Intent(getContext(),RegisteredActivity.class);
+                intent2.putExtra("isXiuGai",true);
+                mContext.startActivity(intent2);
+
+//                startIntent(RegisteredActivity.class);
                 break;
             //检查更新
             case R.id.jianchagengxin:

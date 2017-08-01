@@ -190,14 +190,28 @@
         android:textColor="@color/white"
         android:textSize="16sp" />
 
-    <LinearLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp">
-        <TextView android:textSize="20dp" android:textColor="@color/tv_color_comm" android:gravity="center|top" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/reg_agree" />
-        <TextView android:textSize="20dp"
-            android:textColor="@color/topbar_red_text_color"
+    <LinearLayout
+        android:id="@+id/ln_fuwutiaokuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
             android:gravity="center|top"
+            android:text="@string/reg_agree"
+            android:textColor="@color/tv_color_comm"
+            android:textSize="20dp" />
+
+        <TextView
             android:id="@+id/tv_pro_content"
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
-            android:text="@string/jiao_protocol" />
+            android:gravity="center|top"
+            android:text="@string/jiao_protocol"
+            android:textColor="@color/topbar_red_text_color"
+            android:textSize="20dp" />
     </LinearLayout>
 </LinearLayout>

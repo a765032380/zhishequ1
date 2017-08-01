@@ -74,7 +74,7 @@ public class PlaceOrderActivity extends MySwipeBackActivity
     private List<GouWuChe> list=new ArrayList<>();
     private int type;
     private int spId;
-    private int count=0;
+    private int count = 0;
     private double jiage;
     private int couponId=0;
     private YouHuiQuan.ResultBean resultBean1;
