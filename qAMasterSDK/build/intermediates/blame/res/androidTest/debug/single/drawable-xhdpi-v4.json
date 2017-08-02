@@ -24,12 +24,12 @@
         "source": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/qamaster_btn_check_on_pressed_holo_dark.png"
     },
     {
-        "merged": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/qamaster_star_pressed.png",
-        "source": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/qamaster_star_pressed.png"
-    },
-    {
         "merged": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/qamaster_btn_check_off_pressed_holo_dark.png",
         "source": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/qamaster_btn_check_off_pressed_holo_dark.png"
+    },
+    {
+        "merged": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/qamaster_star_pressed.png",
+        "source": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/qamaster_star_pressed.png"
     },
     {
         "merged": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/qamaster_btn_check_on_focused_holo_dark.png",

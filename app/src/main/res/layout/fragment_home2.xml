@@ -53,7 +53,7 @@
                 android:layout_height="12dp"
                 android:layout_marginLeft="85dp"
                 android:background="@drawable/a_icon_pulldown_go"
-                />
+               />
         </LinearLayout>
 
         <LinearLayout
@@ -89,6 +89,12 @@
                 android:layout_height="8dp"
                 android:background="@drawable/a_icon_pulldown" />
         </LinearLayout>
+        <android.support.v4.view.ViewPager
+            android:id="@+id/home_viewpage_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"></android.support.v4.view.ViewPager>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -223,13 +229,32 @@
             </LinearLayout>
 
         </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+            <ImageView
+                android:id="@+id/iv_blue_1"
+                android:layout_width="5dp"
+                android:layout_height="5dp" 
+                android:background="@drawable/a_sign_dian"/>
+
+            <ImageView
+                android:id="@+id/iv_blue_2"
+                android:layout_marginLeft="5dp"
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:background="@drawable/a_sign_dian_two" />
+        </LinearLayout>
 
         <LinearLayout
             android:id="@+id/ll_jinrongtuijian"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_marginRight="15dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="5dp"
             android:gravity="center_vertical"
             android:orientation="horizontal">
 
@@ -287,14 +312,44 @@
                     android:layout_marginLeft="15dp"
                     android:background="@drawable/a_icon_financial"/>
 
-                <TextView
-                    android:id="@+id/tv_ershoufananjie_title"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="5dp"
+            <TextView
+                android:id="@+id/tv_ershoufananjie_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"              
+                android:gravity="center_vertical"
+                android:text="二手房公积金贷款" />
 
-                    android:gravity="center_vertical"
-                    android:text="二手房公积金贷款" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="right"
+                    android:layout_marginRight="15dp">
+
+                    <ImageView
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="8dp"
+                        android:layout_height="10dp"
+                        android:layout_marginLeft="15dp"
+                        android:background="@drawable/a_icon_financial" />
+
+                    <TextView
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="额度："
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tv_daikuanedu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="50-5000万"
+                        android:textColor="#323232"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
 
             </LinearLayout>
             <LinearLayout
@@ -317,19 +372,19 @@
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical">
+                        android:orientation="horizontal">
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="首期："
+                            android:text="贷款期限："
                             android:textSize="12sp" />
 
                         <TextView
                             android:id="@+id/tv_ershoufanganjie_shouqi"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="20%"
+                            android:text="1-10天"
                             android:textColor="#323232"
                             android:textSize="12sp" />
 
@@ -339,19 +394,21 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
-                        android:orientation="vertical">
+                        android:orientation="horizontal"
+                        android:visibility="gone"
+                        android:id="@+id/suo4">
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="二套："
+                            android:text="下款期限："
                             android:textSize="12sp" />
 
                         <TextView
                             android:id="@+id/tv_ershoufanganjie_ertao"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="35%"
+                            android:text="最快当天"
                             android:textColor="#323232"
                             android:textSize="12sp" />
 
@@ -363,62 +420,76 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:orientation="vertical"
-
-                    >
+                    android:orientation="vertical">
 
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical">
+                        android:orientation="horizontal">
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="利率："
+                            android:text="抵押物："
                             android:textSize="12sp" />
 
                         <TextView
                             android:id="@+id/tv_ershoufang_shouqililv"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="3.25%"
+                            android:text="无需抵押"
                             android:textColor="#323232"
                             android:textSize="12sp" />
 
                     </LinearLayout>
 
                     <LinearLayout
+                        android:visibility="gone"
+                        android:id="@+id/suo3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
-                        android:orientation="vertical">
+                        android:orientation="horizontal">
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="利率："
+                            android:text="月利率："
                             android:textSize="12sp" />
 
                         <TextView
                             android:id="@+id/tv_ershoufang_ertaolilv"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="0.27%"
+                            android:text="10.00%"
                             android:textColor="#323232"
                             android:textSize="12sp" />
 
                     </LinearLayout>
+
+         
                 </LinearLayout>
 
+                <LinearLayout
+                    android:id="@+id/ll_shousuofangkai1"
+                    android:layout_width="30dp"
+                    android:layout_height="15dp"
+                   android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="8dp"
+                        android:layout_height="5dp"
+                        android:background="@drawable/a_icon_on"
+                        android:layout_marginRight="15dp" />
+                </LinearLayout>
 
                 <LinearLayout
+                    android:visibility="gone"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:orientation="vertical"
-
-                    >
+                    android:orientation="vertical" >
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -429,7 +500,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:orientation="vertical">
+                            android:orientation="horizontal">
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -447,22 +518,11 @@
 
                         </LinearLayout>
 
-                        <LinearLayout
-                            android:id="@+id/ll_shousuofangkai1"
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-                            android:gravity="center"
-                            android:orientation="horizontal">
-
-                            <ImageView
-                                android:layout_width="8dp"
-                                android:layout_height="5dp"
-                                android:background="@drawable/a_icon_on"
-                                android:layout_marginRight="15dp"/>
-                        </LinearLayout>
+                  
                     </LinearLayout>
 
                     <LinearLayout
+                        
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
@@ -501,13 +561,8 @@
         </LinearLayout>
 
 
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:layout_marginTop="10dp"
-            android:background="#F1F1F1" />
-
         <LinearLayout
+            android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
@@ -555,7 +610,7 @@
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical">
+                        android:orientation="horizontal">
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -574,10 +629,12 @@
                     </LinearLayout>
 
                     <LinearLayout
+                        android:id="@+id/suo1"
+                        android:visibility="gone"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
-                        android:orientation="vertical">
+                        android:orientation="horizontal">
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -598,6 +655,7 @@
 
 
                 <LinearLayout
+                    
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -608,7 +666,7 @@
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical">
+                        android:orientation="horizontal">
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -627,10 +685,12 @@
                     </LinearLayout>
 
                     <LinearLayout
+                        android:visibility="gone"
+                        android:id="@+id/suo2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
-                        android:orientation="vertical">
+                        android:orientation="horizontal">
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -649,13 +709,26 @@
                     </LinearLayout>
                 </LinearLayout>
 
+                <LinearLayout
+                    android:id="@+id/ll_shousuofangkai2"
+                    android:layout_width="30dp"
+                    android:layout_height="15dp"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="8dp"
+                        android:layout_height="5dp"
+                        android:background="@drawable/a_icon_on"
+                        android:layout_marginRight="15dp" />
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:orientation="vertical"
-
+                    android:visibility="gone"
                     >
 
                     <LinearLayout
@@ -667,7 +740,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:orientation="vertical">
+                            android:orientation="horizontal">
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -685,26 +758,14 @@
 
                         </LinearLayout>
 
-                        <LinearLayout
-                            android:id="@+id/ll_shousuofangkai2"
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-                            android:gravity="center"
-                            android:orientation="horizontal">
-
-                            <ImageView
-                                android:layout_width="8dp"
-                                android:layout_height="5dp"
-                                android:background="@drawable/a_icon_on"
-                                android:layout_marginRight="15dp" />
-                        </LinearLayout>
+                     
                     </LinearLayout>
 
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
-                        android:orientation="vertical">
+                        android:orientation="horizontal">
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -759,7 +820,7 @@
                 android:layout_marginLeft="5dp"
                 android:text="超市特价"
                 android:textColor="#303030"
-                android:textSize="16sp"
+                android:textSize="16sp" 
                 android:layout_weight="1"/>
 
 
@@ -778,8 +839,8 @@
                 android:background="@drawable/a_icon_pulldown" />
         </LinearLayout>
 
+  
         <ListView
-
             android:dividerHeight="1dp"
             android:divider="#323232"
             android:id="@+id/lv_shangping"
@@ -787,7 +848,8 @@
             android:layout_marginRight="15dp"
             android:layout_marginLeft="15dp"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:scrollbars="none">
 
         </ListView>
 
