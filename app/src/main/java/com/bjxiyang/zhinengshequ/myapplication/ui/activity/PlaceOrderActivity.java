@@ -79,7 +79,7 @@ public class PlaceOrderActivity extends MySwipeBackActivity
     private int couponId=0;
     private YouHuiQuan.ResultBean resultBean1;
     private TiJiaoDingDan.ResultBean resultBean;
-    DecimalFormat df=new DecimalFormat("0.##");
+    DecimalFormat df=new DecimalFormat("#.00");
     private ShangPinList.Result.Products products;
 
     public static PlaceOrderActivity placeorder;
@@ -355,10 +355,10 @@ public class PlaceOrderActivity extends MySwipeBackActivity
                             couponId = resultBean1.getId();
                             youhuijian_tishi.setText("享店铺" + (double)resultBean1.getDiscount()/10 + "折");
                             fee = jiage * resultBean1.getDiscount() / 100;
-                            tv_tijiaodingdan_money.setText(String.valueOf(fee / 100));
+                            tv_tijiaodingdan_money.setText(String.valueOf(df.format(fee / 100)));
                         }else {
                             youhuijian_tishi.setText("当前无可用优惠券");
-                            tv_tijiaodingdan_money.setText(String.valueOf(jiage / 100));
+                            tv_tijiaodingdan_money.setText(String.valueOf(df.format(jiage / 100)));
                         }
                     }
 //                    @Override

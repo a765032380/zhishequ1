@@ -1,34 +1,66 @@
 [
     {
-        "merged": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/res/merged/androidTest/debug/anim/qamaster_forgot_passcode_in.xml",
-        "source": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/bundles/debug/res/anim/qamaster_forgot_passcode_in.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\qamaster_login_fadein.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\anim\\qamaster_login_fadein.xml"
     },
     {
-        "merged": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/res/merged/androidTest/debug/anim/qamaster_slide_in.xml",
-        "source": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/bundles/debug/res/anim/qamaster_slide_in.xml"
+        "merged": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\qamaster_forgot_passcode_in.xml",
+        "source": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\anim\\qamaster_forgot_passcode_in.xml"
     },
     {
-        "merged": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/res/merged/androidTest/debug/anim/qamaster_edit_screeshot_fadeout.xml",
-        "source": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/bundles/debug/res/anim/qamaster_edit_screeshot_fadeout.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\qamaster_login_fadeout.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\anim\\qamaster_login_fadeout.xml"
     },
     {
-        "merged": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/res/merged/androidTest/debug/anim/qamaster_login_fadeout.xml",
-        "source": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/bundles/debug/res/anim/qamaster_login_fadeout.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\qamaster_edit_screeshot_fadeout.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\anim\\qamaster_edit_screeshot_fadeout.xml"
     },
     {
-        "merged": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/res/merged/androidTest/debug/anim/qamaster_edit_screeshot_fadein.xml",
-        "source": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/bundles/debug/res/anim/qamaster_edit_screeshot_fadein.xml"
+        "merged": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\qamaster_edit_screeshot_fadeout.xml",
+        "source": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\anim\\qamaster_edit_screeshot_fadeout.xml"
     },
     {
-        "merged": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/res/merged/androidTest/debug/anim/qamaster_login_fadein.xml",
-        "source": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/bundles/debug/res/anim/qamaster_login_fadein.xml"
+        "merged": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\qamaster_login_fadeout.xml",
+        "source": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\anim\\qamaster_login_fadeout.xml"
     },
     {
-        "merged": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/res/merged/androidTest/debug/anim/qamaster_slide_out.xml",
-        "source": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/bundles/debug/res/anim/qamaster_slide_out.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\qamaster_edit_screeshot_fadein.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\anim\\qamaster_edit_screeshot_fadein.xml"
     },
     {
-        "merged": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/res/merged/androidTest/debug/anim/qamaster_forgot_passcode_out.xml",
-        "source": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/bundles/debug/res/anim/qamaster_forgot_passcode_out.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\qamaster_slide_in.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\anim\\qamaster_slide_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\qamaster_slide_in.xml",
+        "source": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\anim\\qamaster_slide_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\qamaster_slide_out.xml",
+        "source": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\anim\\qamaster_slide_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\qamaster_forgot_passcode_in.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\anim\\qamaster_forgot_passcode_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\qamaster_edit_screeshot_fadein.xml",
+        "source": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\anim\\qamaster_edit_screeshot_fadein.xml"
+    },
+    {
+        "merged": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\qamaster_forgot_passcode_out.xml",
+        "source": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\anim\\qamaster_forgot_passcode_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\qamaster_slide_out.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\anim\\qamaster_slide_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\qamaster_forgot_passcode_out.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\anim\\qamaster_forgot_passcode_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\qamaster_login_fadein.xml",
+        "source": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\anim\\qamaster_login_fadein.xml"
     }
 ]

@@ -1,18 +1,34 @@
 [
     {
-        "merged": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/res/merged/androidTest/debug/layout-land/qamaster_header_quick.xml",
-        "source": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/bundles/debug/res/layout-land/qamaster_header_quick.xml"
+        "merged": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-land\\qamaster_login_normal.xml",
+        "source": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\layout-land\\qamaster_login_normal.xml"
     },
     {
-        "merged": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/res/merged/androidTest/debug/layout-land/qamaster_login_normal.xml",
-        "source": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/bundles/debug/res/layout-land/qamaster_login_normal.xml"
+        "merged": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-land\\qamaster_header_normal.xml",
+        "source": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\layout-land\\qamaster_header_normal.xml"
     },
     {
-        "merged": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/res/merged/androidTest/debug/layout-land/qamaster_header_normal.xml",
-        "source": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/bundles/debug/res/layout-land/qamaster_header_normal.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-land\\qamaster_login_normal.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\layout-land\\qamaster_login_normal.xml"
     },
     {
-        "merged": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/res/merged/androidTest/debug/layout-land/qamaster_feedback.xml",
-        "source": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/bundles/debug/res/layout-land/qamaster_feedback.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-land\\qamaster_header_quick.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\layout-land\\qamaster_header_quick.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-land\\qamaster_header_normal.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\layout-land\\qamaster_header_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-land\\qamaster_feedback.xml",
+        "source": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\layout-land\\qamaster_feedback.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-land\\qamaster_feedback.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\layout-land\\qamaster_feedback.xml"
+    },
+    {
+        "merged": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-land\\qamaster_header_quick.xml",
+        "source": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\layout-land\\qamaster_header_quick.xml"
     }
 ]

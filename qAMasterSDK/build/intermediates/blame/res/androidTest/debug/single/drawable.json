@@ -1,118 +1,234 @@
 [
     {
-        "merged": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/res/merged/androidTest/debug/drawable/qamaster_circle_button_feedback.xml",
-        "source": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/bundles/debug/res/drawable/qamaster_circle_button_feedback.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_button_problem.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_button_problem.xml"
     },
     {
-        "merged": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/res/merged/androidTest/debug/drawable/qamaster_star.xml",
-        "source": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/bundles/debug/res/drawable/qamaster_star.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_star.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_star.xml"
     },
     {
-        "merged": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/res/merged/androidTest/debug/drawable/qamaster_popupwindow_background.xml",
-        "source": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/bundles/debug/res/drawable/qamaster_popupwindow_background.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_button.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_button.xml"
     },
     {
-        "merged": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/res/merged/androidTest/debug/drawable/qamaster_rating.xml",
-        "source": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/bundles/debug/res/drawable/qamaster_rating.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_avatar_mask.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_avatar_mask.xml"
     },
     {
-        "merged": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/res/merged/androidTest/debug/drawable/qamaster_dialog_footer_background.xml",
-        "source": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/bundles/debug/res/drawable/qamaster_dialog_footer_background.xml"
+        "merged": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_button_problem.xml",
+        "source": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_button_problem.xml"
     },
     {
-        "merged": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/res/merged/androidTest/debug/drawable/qamaster_button_feedback.xml",
-        "source": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/bundles/debug/res/drawable/qamaster_button_feedback.xml"
+        "merged": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_circle_button_feedback.xml",
+        "source": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_circle_button_feedback.xml"
     },
     {
-        "merged": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/res/merged/androidTest/debug/drawable/qamaster_avatar_mask.xml",
-        "source": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/bundles/debug/res/drawable/qamaster_avatar_mask.xml"
+        "merged": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_dialog_button.xml",
+        "source": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_dialog_button.xml"
     },
     {
-        "merged": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/res/merged/androidTest/debug/drawable/qamaster_beta_dialog_header_background.xml",
-        "source": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/bundles/debug/res/drawable/qamaster_beta_dialog_header_background.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_report_bug_circle.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_report_bug_circle.xml"
     },
     {
-        "merged": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/res/merged/androidTest/debug/drawable/qamaster_report_bug_circle.xml",
-        "source": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/bundles/debug/res/drawable/qamaster_report_bug_circle.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_rating.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_rating.xml"
     },
     {
-        "merged": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/res/merged/androidTest/debug/drawable/qamaster_user_list_background.xml",
-        "source": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/bundles/debug/res/drawable/qamaster_user_list_background.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_beta_dialog_header_background.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_beta_dialog_header_background.xml"
     },
     {
-        "merged": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/res/merged/androidTest/debug/drawable/qamaster_button_problem.xml",
-        "source": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/bundles/debug/res/drawable/qamaster_button_problem.xml"
+        "merged": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_screenshot_thumbnail_overlay.xml",
+        "source": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_screenshot_thumbnail_overlay.xml"
     },
     {
-        "merged": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/res/merged/androidTest/debug/drawable/qamaster_dialog_header_background.xml",
-        "source": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/bundles/debug/res/drawable/qamaster_dialog_header_background.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_circle_button.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_circle_button.xml"
     },
     {
-        "merged": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/res/merged/androidTest/debug/drawable/qamaster_dialog_background.xml",
-        "source": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/bundles/debug/res/drawable/qamaster_dialog_background.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_dialog_footer_background.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_dialog_footer_background.xml"
     },
     {
-        "merged": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/res/merged/androidTest/debug/drawable/qamaster_alertdialog_button_textcolor.xml",
-        "source": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/bundles/debug/res/drawable/qamaster_alertdialog_button_textcolor.xml"
+        "merged": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_report_feedback_circle.xml",
+        "source": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_report_feedback_circle.xml"
     },
     {
-        "merged": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/res/merged/androidTest/debug/drawable/qamaster_report_feedback_circle.xml",
-        "source": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/bundles/debug/res/drawable/qamaster_report_feedback_circle.xml"
+        "merged": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_avatar_mask.xml",
+        "source": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_avatar_mask.xml"
     },
     {
-        "merged": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/res/merged/androidTest/debug/drawable/qamaster_input.xml",
-        "source": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/bundles/debug/res/drawable/qamaster_input.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_background.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_background.xml"
     },
     {
-        "merged": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/res/merged/androidTest/debug/drawable/qamaster_editor_button.xml",
-        "source": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/bundles/debug/res/drawable/qamaster_editor_button.xml"
+        "merged": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_dialog_background.xml",
+        "source": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_dialog_background.xml"
     },
     {
-        "merged": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/res/merged/androidTest/debug/drawable/qamaster_dialog_button.xml",
-        "source": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/bundles/debug/res/drawable/qamaster_dialog_button.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_checkbox.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_checkbox.xml"
     },
     {
-        "merged": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/res/merged/androidTest/debug/drawable/qamaster_circle_button.xml",
-        "source": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/bundles/debug/res/drawable/qamaster_circle_button.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_textbox.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_textbox.xml"
     },
     {
-        "merged": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/res/merged/androidTest/debug/drawable/qamaster_background.xml",
-        "source": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/bundles/debug/res/drawable/qamaster_background.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_editor_button.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_editor_button.xml"
     },
     {
-        "merged": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/res/merged/androidTest/debug/drawable/qamaster_circle_button_problem.xml",
-        "source": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/bundles/debug/res/drawable/qamaster_circle_button_problem.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_alertdialog_button_textcolor.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_alertdialog_button_textcolor.xml"
     },
     {
-        "merged": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/res/merged/androidTest/debug/drawable/qamaster_loader.xml",
-        "source": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/bundles/debug/res/drawable/qamaster_loader.xml"
+        "merged": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_circle_button_problem.xml",
+        "source": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_circle_button_problem.xml"
     },
     {
-        "merged": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/res/merged/androidTest/debug/drawable/qamaster_user_list_textcolor.xml",
-        "source": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/bundles/debug/res/drawable/qamaster_user_list_textcolor.xml"
+        "merged": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_dialog_footer_background.xml",
+        "source": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_dialog_footer_background.xml"
     },
     {
-        "merged": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/res/merged/androidTest/debug/drawable/qamaster_screenshot_thumbnail_overlay.xml",
-        "source": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/bundles/debug/res/drawable/qamaster_screenshot_thumbnail_overlay.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_user_list_textcolor.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_user_list_textcolor.xml"
     },
     {
-        "merged": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/res/merged/androidTest/debug/drawable/qamaster_header_button.xml",
-        "source": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/bundles/debug/res/drawable/qamaster_header_button.xml"
+        "merged": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_user_list_background.xml",
+        "source": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_user_list_background.xml"
     },
     {
-        "merged": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/res/merged/androidTest/debug/drawable/qamaster_textbox.xml",
-        "source": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/bundles/debug/res/drawable/qamaster_textbox.xml"
+        "merged": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_dialog_header_background.xml",
+        "source": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_dialog_header_background.xml"
     },
     {
-        "merged": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/res/merged/androidTest/debug/drawable/qamaster_button.xml",
-        "source": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/bundles/debug/res/drawable/qamaster_button.xml"
+        "merged": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_popupwindow_background.xml",
+        "source": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_popupwindow_background.xml"
     },
     {
-        "merged": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/res/merged/androidTest/debug/drawable/qamaster_checkbox.xml",
-        "source": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/bundles/debug/res/drawable/qamaster_checkbox.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_header_button.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_header_button.xml"
     },
     {
-        "merged": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/res/merged/androidTest/debug/drawable/qamaster_button_dark.xml",
-        "source": "/Users/gll/AndroidStudioProjects/zhishequ1/qAMasterSDK/build/intermediates/bundles/debug/res/drawable/qamaster_button_dark.xml"
+        "merged": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_star.xml",
+        "source": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_star.xml"
+    },
+    {
+        "merged": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_loader.xml",
+        "source": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_loader.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_screenshot_thumbnail_overlay.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_screenshot_thumbnail_overlay.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_dialog_background.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_dialog_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_circle_button_problem.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_circle_button_problem.xml"
+    },
+    {
+        "merged": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_textbox.xml",
+        "source": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_textbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_dialog_button.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_dialog_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_alertdialog_button_textcolor.xml",
+        "source": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_alertdialog_button_textcolor.xml"
+    },
+    {
+        "merged": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_rating.xml",
+        "source": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_rating.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_user_list_background.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_user_list_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_dialog_header_background.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_dialog_header_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_circle_button.xml",
+        "source": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_circle_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_circle_button_feedback.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_circle_button_feedback.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_input.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_input.xml"
+    },
+    {
+        "merged": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_input.xml",
+        "source": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_input.xml"
+    },
+    {
+        "merged": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_background.xml",
+        "source": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_header_button.xml",
+        "source": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_header_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_button.xml",
+        "source": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_button_feedback.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_button_feedback.xml"
+    },
+    {
+        "merged": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_checkbox.xml",
+        "source": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_checkbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_button_feedback.xml",
+        "source": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_button_feedback.xml"
+    },
+    {
+        "merged": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_report_bug_circle.xml",
+        "source": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_report_bug_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_popupwindow_background.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_popupwindow_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_button_dark.xml",
+        "source": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_button_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_button_dark.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_button_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_report_feedback_circle.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_report_feedback_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_user_list_textcolor.xml",
+        "source": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_user_list_textcolor.xml"
+    },
+    {
+        "merged": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_editor_button.xml",
+        "source": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_editor_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_beta_dialog_header_background.xml",
+        "source": "C:\\Users\\gll\\AndroidStudioProjects\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_beta_dialog_header_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\qamaster_loader.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zhishequ1\\qAMasterSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\qamaster_loader.xml"
     }
 ]
